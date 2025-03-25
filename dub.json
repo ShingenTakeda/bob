@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"mitsuo"
+	],
+	"copyright": "Copyright © 2025, mitsuo",
+	"description": "basic build system in d for c using zig",
+	"license": "MIT",
+	"name": "bob"
+}
