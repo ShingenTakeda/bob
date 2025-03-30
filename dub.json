@@ -5,5 +5,15 @@
 	"copyright": "Copyright © 2025, mitsuo",
 	"description": "basic build system in d for c using zig",
 	"license": "MIT",
-	"name": "bob"
+	"name": "bob",
+  	"targetPath": "build",
+      	"buildTypes": {
+        	"plain": {},
+        	"debug": {
+            		"buildOptions": ["debugMode", "debugInfo"]
+        	},
+        	"release": {
+            		"buildOptions": ["releaseMode", "optimize", "inline"]
+        	}
+      }
 }

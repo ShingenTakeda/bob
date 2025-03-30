@@ -32,6 +32,14 @@ Tuple!(bool, bool) check_compilers_on_env()
   return tuple(zig_in_path, tcc_in_path);
 }
 
+Tuple!(bool, bool) check_bob_compilers()
+{
+  bool zig_in_path;
+  bool tcc_in_path;
+
+  return tuple(zig_in_path, tcc_in_path);
+}
+
 Tuple!(string, string) get_compilers_path(Tuple!(bool, bool) compilers_in_env)
 {
   string zig_path;
@@ -82,3 +90,8 @@ Tuple!(string, string) get_compilers_path(Tuple!(bool, bool) compilers_in_env)
 
   return tuple(zig_path, tcc_path);
 }
+
+//Tuple!(string, string) get_bob_compilers_path(Tuple!(bool, bool) compilers_in_env)
+//{
+//
+//}

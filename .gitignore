@@ -16,3 +16,4 @@ bob-test-*
 *.lst
 bob_env.json
 dub_windows
+build

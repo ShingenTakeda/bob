@@ -4,8 +4,8 @@ import bob_config;
 
 void main(string[] args)
 {
-  writeln(check_compilers_on_env.get_compilers_path());
-  print_bob_env();
+  writeln(get_bob_directory());
+  bob_create_env();
 
-  bob_env();
+  bob_create_compiler_own_env();
 }
